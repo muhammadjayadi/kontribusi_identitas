@@ -1,0 +1,105 @@
+body {
+    font: 16px;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcyan;
+    background-image: url(blue-snow.png);
+
+}
+
+
+.container {
+    width: 960px;
+    margin: 80px 150px;
+    background-color: white;
+    position: relative;
+    border: 3px solid lightsalmon;
+    box-shadow: 5px 5px 5px lightskyblue;
+}
+
+.judul{
+    font-family: sofia;
+    margin: 20px;
+    text-shadow: 3px 3px 3px violet;
+}
+
+.header {
+    width: 100%;
+    display: inline-block;
+    background-color: lightskyblue;
+}
+
+.header .judul {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+
+.container .form {
+    font-family: Aladin;
+    margin: 30px 30px;
+}
+
+.sidebar {
+    right: 0;
+    width: 350px;
+    bottom: 0;
+    top: 0;
+    border: 3px solid salmon;
+    position: fixed;
+    background-color: turquoise;
+
+}
+
+.form p{
+    font-weight: bold;
+}
+
+.sidebar h2 {
+    margin: 20px 20px;
+}
+
+.sidebar p {
+    margin: 20px 20px;
+}
+
+.sidebar img{
+    width: 200px;
+    margin-left: 60px;
+    border: 3px solid lightsalmon;
+    box-shadow: 5px 5px 5px lightsalmon;
+    transform: scale(1);
+    transition: 0.3s;
+    
+}
+
+.sidebar img:hover{
+    transform: scale(1.1);
+}
